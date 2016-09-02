@@ -23,7 +23,8 @@ private AppProperties() {
 		throw new RuntimeException("Could not read property file");
 		}
 }
-public Properties getProperties() {
+public Properties getProperties() 
+{
     	return properties;
 }
 
