@@ -1,6 +1,7 @@
 package datamanagement;
 
 public class Cgctl {
+
 	
 	Cgui cgui;
 	String cuc = null;
