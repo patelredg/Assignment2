@@ -10,7 +10,6 @@ public class Cgctl {
 
 	public Cgctl() {
 	}
-
 	public void execute() {
 		cgui = new Cgui(this);
 		cgui.setState1(false);
