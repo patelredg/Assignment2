@@ -21,6 +21,7 @@ public class Cgctl {
 		cgui.setState6(false);
 		cgui.Refresh3();
 
+		
 		ListUnitsCTL luCTL = new ListUnitsCTL();
 		luCTL.listUnits(cgui);
 		cgui.setVisible(true);
