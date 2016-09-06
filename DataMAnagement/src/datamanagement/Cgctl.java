@@ -20,7 +20,6 @@ public class Cgctl {
 		cgui.setState5(false);
 		cgui.setState6(false);
 		cgui.Refresh3();
-
 		
 		ListUnitsCTL luCTL = new ListUnitsCTL();
 		luCTL.listUnits(cgui);
