@@ -8,7 +8,8 @@ public class Cgctl {
 	Integer currentStudentID = null;
 	boolean changed = false;
 
-	public Cgctl() {
+	public Cgctl()
+	{
 	}
 	public void execute() {
 		cgui = new Cgui(this);
