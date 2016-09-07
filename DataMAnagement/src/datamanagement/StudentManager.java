@@ -51,6 +51,7 @@ public class StudentManager {
 			sm.put(is.getID(), is);
 			return is;
 		}
+		
 		throw new RuntimeException("DBMD: createStudent : student not in file");
 	}
 
