@@ -8,6 +8,7 @@ public class ListStudentsCTL {
 	}
 
 	public void listStudents(IStudentLister lister, String unitCode) {
+		
 		lister.clearStudents();
 		StudentMap students = sm.getStudentsByUnit(unitCode);
 		for (Integer id : students.keySet())
